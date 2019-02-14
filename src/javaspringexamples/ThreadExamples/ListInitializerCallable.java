@@ -1,4 +1,4 @@
-package com.codercocoon.ThreadExamples;
+package javaspringexamples.ThreadExamples;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.stream.IntStream;
  * This example represents how to create a pool of threads using ExecutorService
  * and Callable interfaces.
  * 
- * @author contact@codercocoon.com
+ * @author mounir.sahrani@gmail.com
  *
  */
 public class ListInitializerCallable implements Callable<List<Integer>> {
